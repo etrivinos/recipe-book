@@ -5,7 +5,9 @@
 		<hr>
 
 		<div class="list-group">
-			<a class="list-group-item" *ngFor="#item of items" style=""></a>
+			<a class="list-group-item" *ngFor="#item of items" style="">
+        {{ item.name }} ({{ item.amount }})
+      </a>
 		</div>
 	</div>
 </div>
